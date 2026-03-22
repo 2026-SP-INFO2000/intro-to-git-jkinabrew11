@@ -1,0 +1,14 @@
+mv disorganized organized_structure
+cd organized_structure
+mkdir entertainment recipes sports technology travel
+mv *entertainment* entertainment/
+mv *recipes* recipes/
+mv *sports* sports/
+mv *technology* technology/
+mv *travel* travel/
+ls >> output.txt
+ls entertainment >> output.txt
+ls recipes >> output.txt
+ls sports >> output.txt
+ls technology >> output.txt
+ls travel >> output.txt
